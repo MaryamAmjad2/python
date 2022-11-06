@@ -1,6 +1,6 @@
 from Bio import SeqIO
 from Bio import Entrez
-Entrez.email = "fa20-bcs-009@cuiatk.edu.pk"
+Entrez.email = "maryam00@gmail.com"
 gen_file = Entrez.efetch(id="HE805982.1", db="nucleotide", rettype="gb", retmode="txt" )
 fas_file="File.fasta"
 inp=open(gen_file,"r")
