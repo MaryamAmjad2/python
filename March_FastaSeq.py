@@ -12,3 +12,7 @@ for seq in sequences:
         matched_sequences.append(seq)
 
 print("%i matches found: "% len(matched_sequences))
+SeqIO.write(matched_sequences, "result.fasta", "fasta")
+
+print("Successfully written to file result.fasta")
+
